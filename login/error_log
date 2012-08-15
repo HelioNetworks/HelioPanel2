@@ -1,0 +1,9 @@
+[13-Aug-2012 20:00:47] PHP Warning:  require(/heliopanel/cpanel.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/cl58/public_html/cl58services.co.cc/heliopanel/login/index.php on line 9
+[13-Aug-2012 20:00:47] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/heliopanel/cpanel.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cl58/public_html/cl58services.co.cc/heliopanel/login/index.php on line 9
+[13-Aug-2012 20:00:58] PHP Warning:  require(/heliopanel/cpanel.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/cl58/public_html/cl58services.co.cc/heliopanel/login/index.php on line 9
+[13-Aug-2012 20:00:58] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/heliopanel/cpanel.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cl58/public_html/cl58services.co.cc/heliopanel/login/index.php on line 9
+[13-Aug-2012 20:03:32] PHP Parse error:  syntax error, unexpected '}' in /home/cl58/public_html/cl58services.co.cc/heliopanel/login/index.php on line 119
+[13-Aug-2012 20:09:08] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/cl58/public_html/cl58services.co.cc/heliopanel/cpanel.php on line 55
+[13-Aug-2012 20:09:25] PHP Parse error:  syntax error, unexpected ';' in /home/cl58/public_html/cl58services.co.cc/heliopanel/cpanel.php on line 56
+[13-Aug-2012 20:09:35] PHP Parse error:  syntax error, unexpected $end in /home/cl58/public_html/cl58services.co.cc/heliopanel/cpanel.php on line 73
+[13-Aug-2012 20:10:03] PHP Parse error:  syntax error, unexpected T_ELSE in /home/cl58/public_html/cl58services.co.cc/heliopanel/cpanel.php on line 60

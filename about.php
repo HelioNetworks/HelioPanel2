@@ -37,10 +37,15 @@ if (isset($_COOKIE['mobile']))
 		<div id="menu">
 			<ul class="dropdown">
 				<li><a href="http://www.heliohost.org/home/">HelioHost</a></li>
+				<li><a href="login/signup.php">Signup</a>
+          <ul class="submenu">
+            <li><a href="login/signup.php?plan=1">Stevie</a></li>
+            <li><a href="login/signup.php?plan=9">Johnny</a></li>
+          </ul>
+				</li>
 				<li><a href="login/">Login to HelioPanel</a></li>
 				<li class="current_page_item"><a href="about.php">About HelioPanel</a></li>
-				<li><a href="http://www.helionet.org/index/">HelioNet</a></li>
-				<li><a href="http://www.heliohost.org/home/" target="_blank">HelioHost</a></li>
+				<li><a href="http://www.helionet.org/index/" target="_blank">HelioNet</a></li>
 			</ul>
 		</div>
 		<!-- end #menu -->

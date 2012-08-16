@@ -59,17 +59,23 @@ if (isset($_COOKIE['mobile']))
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     </head>
     <body>
-    	<div id="menu-wrapper">
+	<div id="menu-wrapper">
 		<div id="menu">
-			<ul>
+			<ul class="dropdown">
 				<li><a href="http://www.heliohost.org/home/">HelioHost</a></li>
+				<li><a href="signup.php">Signup</a>
+          <ul class="submenu">
+            <li><a href="signup.php?plan=1">Stevie</a></li>
+            <li><a href="signup.php?plan=9">Johnny</a></li>
+          </ul>
+				</li>
 				<li class="current_page_item"><a href="./">Login to HelioPanel</a></li>
-				<li><a href="../about.php">About HelioPanel</a></li>
-				<li><a href="http://www.helionet.org/index/">HelioNet</a></li>
+				<li><a href="/heliopanel/about.php">About HelioPanel</a></li>
+				<li><a href="http://www.helionet.org/index/" target="_blank">HelioNet</a></li>
 			</ul>
 		</div>
 		<!-- end #menu -->
-	</div>
+	</div> 
 
 		<div class="wrapper">
 			<h1>Welcome to HelioPanel</h1>

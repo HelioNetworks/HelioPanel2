@@ -81,7 +81,7 @@ form.register{
 	width:550px;
 }
 form.forgot_password{
-	width:300px;
+	width:350px;
 }
 .form_wrapper a{
 	text-decoration:none;
@@ -218,13 +218,10 @@ form.forgot_password{
 #menu-wrapper {
 	height: 60px;
 	background: #212121;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	text-shadow:0px 0px 0px #fff;
 }
 
 #menu {
-	width: 940px;
+	width: 1040px;
 	margin: 0px auto;
 }
 
@@ -235,42 +232,76 @@ form.forgot_password{
 	line-height: normal;
 }
 
-#menu li {
-	float: left;
+/* 
+	LEVEL ONE
+*/
+ul.dropdown {
+ 	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	height: 60px;
+	background: #212121;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-shadow:0px 0px 0px #fff;
+
+ }
+ul.dropdown li {
+ 	float: left;
 	margin-right: 1px;
 }
-
-#menu a {
+ul.dropdown li a {
 	display: block;
 	float: left;
 	height: 60px;
 	margin: 0px;
 	padding: 0px 30px 0px 30px;
 	line-height: 60px;
-	letter-spacing: -1px;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Arvo', serif;
 	font-size: 14px;
 	font-weight: normal;
-	color: #B5B5B5;
+	color: #fff;
 	border: none;
 	-webkit-transition: color 0s ease-in; /*safari and chrome */
  -moz-transition: color 0s ease-in; /* firefox */
  -o-transition: color 0s ease-in; /* opera */
 }
 
-#menu a#cpanel {
-	text-transform: none;
-}
-
-#menu .current_page_item a {
-	background: #D6AD39;
-	color: #FFFFFF;
-}
-
-#menu a:hover {
+ul.dropdown a:hover {
 	background: #D6AD39;
 	text-decoration: none;
 	color: #FFFFFF;
 }
+
+ul.dropdown a:active {
+ color: #fff; 
+ }
+ #menu .current_page_item a {
+	background: #D6AD39;
+	color: #FFFFFF;
+}
+ul.dropdown li:last-child a { border-right: none; } /* Doesn't work in IE */
+
+ul.dropdown li.hover,
+ul.dropdown li:hover                { background: #D6AD39; color: #fff; position: relative; }
+ul.dropdown li.hover a              { color: #fff; }
+
+
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul 						{ width: 220px; visibility: hidden; position: absolute; top: 100%; left: 0; background: #212121; z-index:999; }
+
+ul.dropdown ul li 					{ font-weight: normal; background: #212121; color: #fff;  float: none; width: 160px; }
+									  
+									                                      /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a					{ border-right: none; width: 100%; display: inline-block; color: #fff; } 
+
+/* 
+	LEVEL THREE
+*/
+ul.dropdown ul ul 					{ left: 100%; top: 0; }
+ul.dropdown li:hover > ul 			{ visibility: visible; }

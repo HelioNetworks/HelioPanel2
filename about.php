@@ -35,20 +35,16 @@ if (isset($_COOKIE['mobile']))
  } else { ?>  
 	<div id="menu-wrapper">
 		<div id="menu">
-			<ul>
+			<ul class="dropdown">
 				<li><a href="http://www.heliohost.org/home/">HelioHost</a></li>
 				<li><a href="login/">Login to HelioPanel</a></li>
 				<li class="current_page_item"><a href="about.php">About HelioPanel</a></li>
 				<li><a href="http://www.helionet.org/index/">HelioNet</a></li>
+				<li><a href="http://www.heliohost.org/home/" target="_blank">HelioHost</a></li>
 			</ul>
 		</div>
 		<!-- end #menu -->
-	</div>
-
- 
- 
- 
- 
+	</div> 
 <div id="wrapper">
 	<div id="header-wrapper">
 		<div id="header">

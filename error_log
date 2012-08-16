@@ -1,0 +1,5 @@
+[13-Aug-2012 09:43:31] PHP Warning:  include(inc/sidebar.inc.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/cl58/public_html/cl58services.co.cc/heliopanel/index.php on line 70
+[13-Aug-2012 09:43:31] PHP Warning:  include(inc/sidebar.inc.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/cl58/public_html/cl58services.co.cc/heliopanel/index.php on line 70
+[13-Aug-2012 09:43:31] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'inc/sidebar.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cl58/public_html/cl58services.co.cc/heliopanel/index.php on line 70
+[15-Aug-2012 14:45:43] PHP Parse error:  syntax error, unexpected '}' in /home/cl58/public_html/cl58services.co.cc/heliopanel/about.php on line 5
+[15-Aug-2012 16:41:57] PHP Parse error:  syntax error, unexpected '}' in /home/cl58/public_html/cl58services.co.cc/heliopanel/about.php on line 54

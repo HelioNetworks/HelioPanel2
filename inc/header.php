@@ -18,6 +18,10 @@ if (!isset($_SESSION['username'])) {
 <link href="/heliopanel/css/style.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="/heliopanel/css/buttons.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="/heliopanel/css/tabs.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="/heliopanel/js/jquery-1.3.1.min.js"></script>	
+<script type="text/javascript" language="javascript" src="/heliopanel/js/hoverIntent.js"></script>
+<script type="text/javascript" language="javascript" src="/heliopanel/js/jquery.dropdown.js"></script>
+
 <!-- BEGIN MOBILE DETECTION -->
 <?php
 

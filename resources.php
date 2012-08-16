@@ -89,7 +89,7 @@
         		    <li><a href="resources.php?go=faq">Frequently Asked Questions</a></li> 
         		    <li><a href="http://www.helionet.org/index/" target="_blank">Support Forums @ HelioNet</a></li> 
         		    <li><a href="scripts.php">Account Scripts</a></li>
-        		    <li><a href="wiki.php">Wiki</a></li>
+        		    <li><a href="http://wiki.helionet.org/">Wiki</a></li>
         		    <li><a href="http://www.heliohost.org/home/support/chat" target="_blank">IRC Live Chat</a></li>
         		    <p>HelioHost does not provide support via phone or email.</p>
         		 </ul>

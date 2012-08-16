@@ -56,8 +56,21 @@ if (isset($_COOKIE['mobile']))
     }
     </script>';}
 ?>
+<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     </head>
     <body>
+    	<div id="menu-wrapper">
+		<div id="menu">
+			<ul>
+				<li><a href="http://www.heliohost.org/home/">HelioHost</a></li>
+				<li class="current_page_item"><a href="login/">Login to HelioPanel</a></li>
+				<li><a href="../about.php">About HelioPanel</a></li>
+				<li><a href="http://www.helionet.org/index/">HelioNet</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+	</div>
+
 		<div class="wrapper">
 			<h1>Welcome to HelioPanel</h1>
 			<h2>Login with your <span>cPanel</span> account.</h2>
@@ -166,7 +179,6 @@ if ($_GET['act'] == 'Logout') { ?>
 				</div>
 				<div class="clear"></div>
 			</div>
-			<a class="back" href="http://www.heliohost.org/home/">Back to HelioHost</a>
 		</div>
 		
 

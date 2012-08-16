@@ -83,7 +83,7 @@ if ($_GET['act'] == 'Logout') { ?>
 
 <div class="webapp">Install our web app by tapping <img src="images/shareicon.png"><br>and choose 'Add to Home Screen'.</div>
 <div class="footer">
-    <p>&copy; Copyright 2012 HelioHost.  All rights reserved.  <a href="http://www.heliohost.org/m/">HelioHost</a> | <a href="about.php">About</a></p>
+    <p>&copy; Copyright 2012 HelioHost.  All rights reserved.  <a href="http://www.heliohost.org/m/" target="_blank">HelioHost</a> | <a href="about.php">About</a></p>
     <p><img src="images/rsz_hhlogo.png" alt="Logo" onClick="window.location.reload()" /></p>
 </div>
 </body>

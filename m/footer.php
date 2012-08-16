@@ -1,5 +1,5 @@
 <div class="footer">
-    <p>&copy; Copyright 2012 HelioHost.  All rights reserved.  <a href="http://www.heliohost.org/m/">HelioHost</a> | <a href="about.php">About</a> | <a href="login.php?act=Logout">Logout</a></p>
+    <p>&copy; Copyright 2012 HelioHost.  All rights reserved.  <a href="http://www.heliohost.org/m/" target="_blank">HelioHost</a> | <a href="about.php">About</a> | <a href="login.php?act=Logout">Logout</a></p>
     <p><img src="images/rsz_hhlogo.png" alt="Logo" onClick="window.location.reload()" /></p>
     <p><a href="../nomobile.php">View Full Site</a></p>
 </div>

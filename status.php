@@ -42,7 +42,7 @@
         }
         
 ?></p>
-<p><a class="large button orange" href="http://heliohost.grd.net.pl/monitor/">Server Monitor &rarr;</a></p>
+<p><a class="large button orange" href="http://heliohost.grd.net.pl/monitor/" target="_blank">Server Monitor &rarr;</a></p>
 						</div>
 					</div>
 

@@ -11,7 +11,7 @@
 <?php 
 function get_status($twitter_id, $hyperlinks = true) {
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, "http://twitter.com/statuses/user_timeline/$twitter_id.xml?count=1");
+    curl_setopt($ch, CURLOPT_URL, "http://twitter.com/statuses/user_timeline/heliohost.xml?count=1");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     $src = curl_exec($ch);
     curl_close($ch);
@@ -27,7 +27,8 @@ echo get_status('Heliohost');
 </td>
 </tr></table>
 						</li>
-										<li><h2></h2><a class="super button orange" href="login/?act=Logout">Logout</a></li>
+										<?php if (isset($_SESSION['username'])) { ?><li><h2></h2><a class="super button orange" href="login/?act=Logout">Logout</a></li><?php } ?>
+										<li><h2></h2><a href="about.php">About HelioPanel</a></li>
 					</ul>
 				</div>
 				</div>

@@ -21,15 +21,6 @@ h2{
 h2 span{
 	color:#D6AD39;
 }
-a{
-	color:#777;
-}
-a:hover{
-	color:#222;
-}
-p{
-	padding:5px 0px;
-}
 .wrapper{
 	width:960px;
 	margin:20px auto;
@@ -217,4 +208,69 @@ form.forgot_password{
 	-webkit-box-shadow: 0px 0px 2px #eaeaea inset;
 	box-shadow: 0px 0px 2px #eaeaea inset;
 	color: #222;
+}
+
+
+
+
+/* Menu */
+
+#menu-wrapper {
+	height: 60px;
+	background: #212121;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-shadow:0px 0px 0px #fff;
+}
+
+#menu {
+	width: 940px;
+	margin: 0px auto;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	margin-right: 1px;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 60px;
+	margin: 0px;
+	padding: 0px 30px 0px 30px;
+	line-height: 60px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #B5B5B5;
+	border: none;
+	-webkit-transition: color 0s ease-in; /*safari and chrome */
+ -moz-transition: color 0s ease-in; /* firefox */
+ -o-transition: color 0s ease-in; /* opera */
+}
+
+#menu a#cpanel {
+	text-transform: none;
+}
+
+#menu .current_page_item a {
+	background: #D6AD39;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background: #D6AD39;
+	text-decoration: none;
+	color: #FFFFFF;
 }

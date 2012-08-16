@@ -63,7 +63,7 @@ if (isset($_COOKIE['mobile']))
 		<div id="menu">
 			<ul>
 				<li><a href="http://www.heliohost.org/home/">HelioHost</a></li>
-				<li class="current_page_item"><a href="login/">Login to HelioPanel</a></li>
+				<li class="current_page_item"><a href="./">Login to HelioPanel</a></li>
 				<li><a href="../about.php">About HelioPanel</a></li>
 				<li><a href="http://www.helionet.org/index/">HelioNet</a></li>
 			</ul>
@@ -78,52 +78,6 @@ if (isset($_COOKIE['mobile']))
 				<div id="form_wrapper" class="form_wrapper">
 
 
-					<form class="register">
-						<h3>Register</h3>
-						<div class="column">
-							<div>
-								<label>First Name:</label>
-								<input type="text" />
-								<span class="space">This is an error</span>
-							</div>
-							<div>
-								<label>Last Name:</label>
-								<input type="text" />
-								<span class="space">This is an error</span>
-							</div>
-							<div>
-								<label>Website:</label>
-								<input type="text" value="http://"/>
-								<span class="space">This is an error</span>
-							</div>
-						</div>
-						<div class="column">
-							<div>
-								<label>Username:</label>
-								<input type="text"/>
-								<span class="space">This is an error</span>
-							</div>
-							<div>
-								<label>Email:</label>
-								<input type="text" />
-								<span class="space">This is an error</span>
-							</div>
-							<div>
-								<label>Password:</label>
-								<input type="password" />
-								<span class="space">This is an error</span>
-							</div>
-						</div>
-						<div class="bottom">
-							<div class="remember">
-								<input type="checkbox" />
-								<span>Send me updates</span>
-							</div>
-							<input type="submit" value="Register" />
-							<a href="index.php" rel="login" class="linkform">You have an account already? Log in here</a>
-							<div class="clear"></div>
-						</div>
-					</form>
 					<form class="login active" method="post" action="index.php">
 						<h3>Login</h3>
 						<?php 
@@ -141,7 +95,7 @@ if ($_GET['act'] == 'Logout') { ?>
 							<span class="space">This is an error</span>
 						</div>
 						<div>
-							<label for="pass">Password: <a href="forgot_password.php" rel="forgot_password" class="forgot linkform">Forgot your password?</a></label>
+							<label for="pass">Password:</label>
 							<input type="password" name="password" id="pass" />
 							<span class="space">This is an error</span>
 						</div>
@@ -158,29 +112,7 @@ if ($_GET['act'] == 'Logout') { ?>
 							<div class="clear"></div>
 						</div>
 					</form>
-					<form class="forgot_password" method="post" action="forgot.php">
-						<h3>Forgot Password</h3>
-						<div>
-						 <select name="theme">
-						<option value="">Please choose your server</option>
-						<option value="stevie">Stevie</option><option value="johnny">Johnny</option></select>
-						</div>	
-						<div>
-							<label>Username:</label>
-							<input type="text" name="user" />
-							<span class="space">This is an error</span>
-						</div>
-						<div class="bottom">
-							<input type="submit" value="Send reminder"></input>
-							<a href="index.php" rel="login" class="linkform">Suddenly remebered? Log in here</a>
-							<div class="clear"></div>
-						</div>
-					</form>
-				</div>
-				<div class="clear"></div>
-			</div>
-		</div>
-		
+						
 
 		<!-- The JavaScript -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>

@@ -13,8 +13,7 @@ if (!isset($_SESSION['username'])) {
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>HelioPanel</title>
-<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Dr+Sugiyama|Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Dr+Sugiyama|Oswald|Italianno' rel='stylesheet' type='text/css'>
 <link href="/heliopanel/css/style.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="/heliopanel/css/buttons.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="/heliopanel/css/tabs.css" rel="stylesheet" type="text/css" media="screen" />

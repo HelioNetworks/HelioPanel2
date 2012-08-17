@@ -11,7 +11,6 @@
               <p>	
    <a href="scripts.php?go=renew" class="button orange">Account Renewal &rarr;</a><br /><br />
 	<a href="scripts.php?go=domain" class="button orange">Main Domain Change &rarr;</a><br /><br />
-	<a href="scripts.php?go=dns" class="button orange">DNS Record Lookup &rarr;</a><br /><br />
 	<a href="scripts.php?go=status" class="button orange">Creation Status &rarr;</a><br /><br />
 	<a href="scripts.php?go=del" class="button orange">Delete Account &rarr;</a><br /><br />
 </p>
@@ -24,15 +23,6 @@
 					<div class="post">
 						<div class="entry">
 <IFRAME src="http://www.heliohost.org/scripts/<?php echo $_GET['go']; ?>.php" WIDTH="100%" HEIGHT="300" SCROLLING="no" FRAMEBORDER="0" BORDER="0">Your mobile device does not support this script.</IFRAME>
-						</div>
-					</div>
-<?php
-}elseif ($_GET['go'] == 'dns') {
-?>
-   <a href="scripts.php" class="button orange">&larr; Choose another script</a><br /><br />
-					<div class="post">
-						<div class="entry">
-<IFRAME src="http://byrondallas.heliohost.org/php/tools/dns_records.php" WIDTH="100%" HEIGHT="300" SCROLLING="no" FRAMEBORDER="0" BORDER="0">Your mobile device does not support this script.</IFRAME>
 						</div>
 					</div>
 <?php

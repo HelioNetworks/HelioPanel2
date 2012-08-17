@@ -13,7 +13,7 @@
 	<a href="resources.php?go=faq" class="button orange">Frequently Asked Questions &rarr;</a><br /><br />
 	<a href="resources.php?go=facts" class="button orange">Server Facts &rarr;</a><br /><br />
 	<a href="http://heliohost.grd.net.pl/monitor/" class="button orange" target="_blank">Server Monitor &rarr;</a><br /><br />
-	<a href="scripts.php?go=dns" class="button orange">DNS Checker &rarr;</a><br /><br />
+	<a href="http://byrondallas.heliohost.org/php/tools/dns_records.php" class="button orange" target="_blank">DNS Checker &rarr;</a><br /><br />
 	<a href="http://twitter.com/heliohost" class="button orange" target="_blank">Twitter &rarr;</a><br /><br />
 	<a href="http://www.helionet.org/index/index.php?showtopic=7178" class="button orange" target="_blank">Common Support Questions &rarr;</a><br /><br />
 	<a href="resources.php?go=terms" class="button orange">Terms of Service &rarr;</a><br /><br />
